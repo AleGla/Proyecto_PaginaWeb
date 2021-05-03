@@ -1,0 +1,190 @@
+body {
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    color: black;    
+     font-family:"serif";     
+     
+     font-size: 1em;
+     width: auto;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     
+     
+   }
+ 
+  
+
+   .titulo{
+    background-image: linear-gradient(180deg, #cdc3ff 0, #9d9df2 50%, #7278b7 100%);
+    box-shadow: 0 0 100px white;
+
+}
+
+
+   li{
+    list-style-type: none;
+   }    
+
+    
+    aside {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    
+    }
+    
+    h2,h3 {
+    color: #E36B2C;
+    margin:0;
+    font-size:35px;
+    font-weight:inherit;
+    text-align: center;
+    
+   
+    }
+    
+   /* div {
+    position: relative;
+    top: ;
+    bottom: ;
+    right: ;
+    left: ;
+    float: ;
+    text-align: center;
+    }*/
+    
+    .marco p{
+
+    background-image: radial-gradient(circle at 50% -20.71%, #ff65b3 0, #ff59c0 10%, #ff4ecd 20%, #ff45d9 30%, #ff3fe6 40%, #f23cf2 50%, #d33ffe 60%, #ad46ff 70%, #7b4fff 80%, #0058ff 90%, #0060ff 100%);
+    font-size: 25px;
+    color: black;
+    width: auto;
+    height: 20px;
+    margin: 10px 10px;
+    padding: 15px 15px;
+    border: 10px solid #000 
+       
+    }
+
+    .marco{
+        box-shadow: 0 0 100px white;
+    }
+
+    
+
+ .margen a{
+
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:25px;
+	padding: 25px;
+    width: 80px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    text-align: center;
+    left: 50px 50px;
+    right: 50px;
+    border-spacing: 50px;
+    
+}
+
+.margen{
+    padding: 50px;
+    background-color: transparent;
+    
+}
+
+.margen a:hover{
+           background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+        background-color:#bab1ba;
+        
+    }
+    
+.margen a:active{    
+        position:relative;
+        top:1px;   
+        
+}   
+
+
+a{
+    background-color: white;
+    padding:15px;    
+    margin: 15px 15px;
+    border-radius: 50%;        
+   
+}
+
+
+.personajes a:hover{
+    background: linear-gradient(180deg, #65bce8 0%, #306485 49%, #fbde74 50%, #ff9900 100%);
+    background-size: 1px 100px;
+    transition: all .8s;
+    background-position: 0 -50px;
+    box-shadow: 0 0 100px white;
+}
+
+.personajes a{
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1))
+
+}
+
+section a{
+    padding: .6rem 1rem;
+    border: 1px solid #995309;
+    border-radius: 4px;
+    background-color: #d9750b;
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+      0 1px 3px rgba(0,0,0,.2);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f90),to(#e76a00));
+    background-image: linear-gradient(#f90 10%,#e76a00 100%);
+}
+
+section a:hover, a:focus{
+
+    background-color: #e0811b;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+  background-image: linear-gradient(#f0a100 10%,#f70 100%);
+
+}
+
+section a:active{
+
+    background-color: #cf6a00;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+    background-image: linear-gradient(#f0a100 10%,#f70 100%);
+}
+
+.main2 h3{
+    font-size: 300%;
+    color:#000;
+    background:radial-gradient( ellipse, white, #1162ac, black);
+}
+
+.trama h2{
+    font-size: 300%;
+    color:#000;
+    background:radial-gradient( ellipse, white, #1162ac, black);
+}
+
+.personajes h2{
+    font-size: 500%;
+    background:radial-gradient(ellipse, white 25%, peru 66%, black 96%);
+    
+}
+
+.personajes h1{
+    background-image: linear-gradient(180deg, #ffff00 0, #ffff00 8.33%, #ffff00 16.67%, #ddff12 25%, #b5ff30 33.33%, #88ff44 41.67%, #53f253 50%, #00e260 58.33%, #00d56c 66.67%, #00c978 75%, #00c084 83.33%, #00b992 91.67%, #00b4a0 100%);
+
+}
+

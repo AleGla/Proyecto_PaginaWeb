@@ -1,0 +1,124 @@
+html{
+    height: auto;
+    width: auto;
+}
+
+body{
+    margin: 50px 50px;
+    padding: 50px;
+    background:linear-gradient(#7209b7,#3f37c0);
+    text-align: center;
+    
+}
+
+.contenedor{
+    text-align: center;  
+    border-radius: 100px;
+    margin: 50px auto;
+    width: 1100px;
+    height: 1000px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .5);   
+}
+
+
+.elemento a{ 
+    color:white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+}
+
+
+.contenedor .elemento label{
+    color: #fff;
+    display: block;
+    text-indent: -15px;
+}
+
+.contenedor .elemento input{
+    color:white;
+    background-color: transparent;
+    padding: 10px 0;
+    width: 50%;   
+    border:none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type='submit']{
+    background-color: #f72585;
+    border:none;
+    border-radius: 1.5%;
+    letter-spacing: 5px;
+    color: white;
+    width: 50%;
+    text-transform: uppercase;  
+    cursor: pointer;     
+    padding: 15px;
+    margin-top: 30px;
+   
+}
+.contenedor .elemento input[type='reset']{
+    background-color: white;
+    border:none;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;  
+    cursor: pointer;   
+    width: 20%;  
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+
+.contenedor h2{
+    color:#4cc9f0;
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.elemento a{
+ 
+    color:white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    width: 50%;
+    
+
+}
+
+.contenedor .elementoLista input[type="checkbox"]{
+    
+    align-content: center;    
+    width: 80%;
+    height: 10px;      
+    position: relative; 
+    font-size: 50px;
+    display:block;
+    
+     
+}
+
+.contenedor .elementoRadio input[type="radio"]{
+
+    align-items: center;
+    width: 10%;
+    
+}
+
+
+.contenedor .elementoRadio label{
+    color:white;
+    padding: 40px;    
+}
+
+.contenedor .elementoLista label{
+
+    color:white;
+    height: 50000px;
+}
+
+
